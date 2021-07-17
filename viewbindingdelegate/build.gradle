@@ -3,6 +3,14 @@ plugins {
     id 'kotlin-android'
 }
 
+ext {
+    PUBLISH_GROUP_ID = 'org.cuongnv'
+    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_ARTIFACT_ID = 'viewbindingdelegate'
+}
+
+apply from: "${rootDir}/scripts/publish-module.gradle"
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"

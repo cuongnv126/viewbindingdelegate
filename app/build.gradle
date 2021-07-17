@@ -43,7 +43,10 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
-    implementation project(path: ':viewbindingdelegate')
+    implementation 'org.cuongnv:viewbindingdelegate:1.0.0'
+
+    // When you wanna using library from local, please un-comment this module in settings.gradle
+    // implementation project(path: ':viewbindingdelegate')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

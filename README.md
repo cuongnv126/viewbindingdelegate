@@ -1,4 +1,8 @@
 # ViewBinding Delegate Extension
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<a href="https://github.com/cuongnv126/viewbindingdelegate/releases"><img src="https://img.shields.io/maven-central/v/org.cuongnv/viewbindingdelegate?color=dark-green" /></a>
+
 Support extension to use Android ViewBinding quickly and smooth transform from kotlin-synthetic-extension.
 Binding instance auto wipe belong to Android UI view life cycle.
 
@@ -63,10 +67,20 @@ Log.d(TAG, "Stub binding initialized? = ${stubBinding.opt() != null}") // bindin
 
 ## Maven
 ```xml
-Updating...
+<dependency>
+  <groupId>org.cuongnv</groupId>
+  <artifactId>viewbindingdelegate</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
 ```
 
-## Gradle
-```xml
-Updating...
+## Gradle Kotlin DSL
+```kotlin
+implementation("org.cuongnv:viewbindingdelegate:1.0.0")
+
+```
+## Gradle Groovy
+```groovy
+implementation 'org.cuongnv:viewbindingdelegate:1.0.0'
 ```
