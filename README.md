@@ -63,10 +63,20 @@ Log.d(TAG, "Stub binding initialized? = ${stubBinding.opt() != null}") // bindin
 
 ## Maven
 ```xml
-Updating...
+<dependency>
+  <groupId>org.cuongnv</groupId>
+  <artifactId>viewbindingdelegate</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
 ```
 
-## Gradle
-```xml
-Updating...
+## Gradle Kotlin DSL
+```kotlin
+implementation("org.cuongnv:viewbindingdelegate:1.0.0")
+
+```
+## Gradle Groovy
+```groovy
+implementation 'org.cuongnv:viewbindingdelegate:1.0.0'
 ```
