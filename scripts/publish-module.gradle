@@ -36,7 +36,7 @@ afterEvaluate {
 //                artifact javadocJar
 
                 pom {
-                    name = PUBLISH_ARTIFACT_ID
+                    name = PUBLISH_ARTIFACT_NAME
                     description = 'Support extension to use Android ViewBinding quickly and smooth transform from kotlin-synthetic-extension'
                     url = 'https://github.com/cuongnv126/viewbindingdelegate'
                     licenses {
